@@ -1,0 +1,99 @@
+a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Quattrocento Sans;
+
+}
+
+.text {
+    font-family: Livvic;
+}
+
+/* general */
+header {
+    padding: 39px 0;
+    background: #334B35;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrapper .menu {
+    display: flex;
+    gap: 50px;
+}
+
+header .wrapper .menu a {
+    color: #fff;
+}
+
+.hero {
+    background: url(./images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 290px 0 234px;
+}
+
+.hero .top-text {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.hero .first-title {
+    font-size: 70px;
+    color: #F7C35F;
+    line-height: normal;
+    font-weight: 700;
+    position: relative;
+}
+.hero .first-title::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(./images/leaf.png);
+    
+}
+
+.hero .second-title{
+    font-size: 70px;
+    line-height: normal;
+    font-weight: 700;
+    color: #fff;
+}
